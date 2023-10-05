@@ -1,7 +1,10 @@
 # Тестовое задание на позицию php разработчика 
 # API Documentation 
 
-## To run simply be in the directory with docker-compose.yml and run docker-compose up --build -d
+## To run simply be in the directory with docker-compose.yml and run 
+```shell
+docker-compose up --build -d
+```
 
  Для всех запросов используйте базовый URL `http://localhost/api/v1/notebook`.
 
