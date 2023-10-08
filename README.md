@@ -1,6 +1,7 @@
 # Тестовое задание на позицию php разработчика 
 # API Documentation 
 
+##  [Swagger link](https://app.swaggerhub.com/apis/SOBOLII21/API/1.0.0#/notebook) 
 ## To run simply be in the directory with docker-compose.yml and run 
 ```shell
 docker-compose up --build -d
@@ -20,7 +21,7 @@ curl http://localhost/api/v1/notebook
 curl http://localhost/api/v1/notebook?page=2&limit=3
 ```
 
-#### Получить конкретную записку по ID
+#### Получить конкретную записку по ID:
 ```shell
 curl http://localhost/api/v1/notebook?id=1
 ```
@@ -30,7 +31,7 @@ curl http://localhost/api/v1/notebook?id=1
 #### Обновить информацию о пользователе
 ```shell
 curl -X PUT -H "Content-Type: application/json" -d '{"full_name":"Новое Имя","company":"Новая Компания","phone_number":"1334567890","email":"john.de@example.com","birth_date":"1985-05-15","photo":null}' http://localhost/api/v1/users?id=1
-```
+``ear
 
 #### Создать нового пользователя
 ```shell
